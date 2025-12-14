@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <title>Serendipity — Accueil</title>
+  <title>Serendipity — Accueil</title> <!-- Titre visible sur l'onglet dans le navigateur -->
+  <!-- icône visible sur l'onglet dans le navigateur. Format .ico adapté au web. -->
   <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico" title="Icon leaves by TRAVIS BIRD from the Noun Project (CC BY 3.0)">
-  <meta charset="UTF-8">
+  <meta charset="UTF-8"> <!-- site encodé en UTF-8 -->
+  <!-- métadonnées descriptives du site -->
   <meta name="description" content="articles lifestyle et bien-être">
   <meta name="keywords" content="Bien-être, Lifestyle, Mode, Relations">
   <meta name="author" content="Guitty Aziz, Antonia Vafea">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- Feuille de style -->
-  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css"> <!-- Chemin d'accès relatif vers la feuille de style -->
 </head>
 
 <body>
@@ -18,10 +20,10 @@
 <!-- Barre de navigation principale du site -->
 <nav class="nav">
   <div class="nav-container">
-    <div class="logo"><a href="/">Serendipity</a></div> <!-- Le titre du magazine -->
+    <div class="logo">Serendipity</div> <!-- Le titre du magazine -->
     <ul class="nav-menu">
       <li><a href="/">Accueil</a></li>
-      <li><a href="./mode/articles.html">Mode</a></li>
+      <li><a href="./mode/articles.html">Mode</a></li><!-- chemin d'accès relatif vers la page "articles.html" dans le dossier "Mode" -->
       <li><a href="./bien-etre/articles.html">Bien-être</a></li>
       <li><a href="./relations/articles.html">Relations</a></li>
     </ul>
@@ -29,21 +31,21 @@
 </nav>
 
 <!-- Header -->
-<header class="header">
+<header class="header"> <!-- propriétés CSS du header définies par la classe "header" -->
   <div class="header-overlay">
     <div class="header-content">
       <span class="header-tag">Magazine lifestyle</span>
-      <h1>L’élégance commence par l’équilibre</h1>
+      <h1>L’élégance commence par l’équilibre</h1> <!-- Titre de plus haut niveau de la page -->
       <p>
         Mode, bien-être et art de vivre féminin. Serendipity explore le bien-être sous toutes ses formes.
       </p>
     </div>
   </div>
-  <div class="header-caption">jcjyxjs / Unsplash</div>
+  <div class="header-caption">jcjyxjs / Unsplash</div> <!-- légende de l'image de fond du header avec les crédits de l'image-->
 </header>
 
 <!-- SECTION EDITO -->
-<section class="editorial">
+<section class="editorial"> <!-- propriétés CSS de cette section définies par la classe "editorial" -->
   <div class="editorial-text">
     <h2>L’expérience Serendipity</h2>
     <p>
@@ -62,14 +64,15 @@
   </div>
 
   <div class="editorial-image">
-    <figure>
-      <img src="assets/img/accueil.webp" alt="Photographie en gros plan sur un brin de blé">
+    <figure> <!-- Balise permettant d'englober la balise <img> et la légende associée <figcaption> -->
+      <img src="assets/img/accueil.webp" alt="Photographie en gros plan sur un brin de blé"> <!-- chemin d'accès relatif vers l'image au format adapté web .webp et avec une description alt -->
       <figcaption>Buddy AN (@stbuddyp) / Unsplash</figcaption>
     </figure>
   </div>
 </section>
 
-<section class="categories">
+<section class="categories"> <!-- propriétés de cette section définies par la classe CSS "categories" -->
+  <!-- créé un bloc avec trois colonnes ("category-card") présentant les catégories du site -->
   <div class="category-card">
     <h3>Mode</h3>
     <p>
@@ -96,15 +99,19 @@
   </div>
 </section>
 
+  <!-- Footer/Bas de page du site -->
 <footer class="footer">
+  <!-- Mention légales du site. Cliquer sur "mentions légales" ouvre un lien vers un pdf hébergé sur notre dépôt GitHub -->
   <p><a href="https://serendipity-magazine.github.io/mentions-legales.pdf" target="_blank" class="footer-link">Mentions légales</a> |
   <a href="https://serendipity-magazine.github.io/">Serendipity</a>
     © 2025 by 
   <a href="https://github.com/Serendipity-magazine">Guitty Aziz & Antonia Vafea</a> is licensed under 
-  <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>
+  <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> <!-- Licence Creative Commons du site -->
+    <!-- Logos correspondant à la licence Creative Commons -->
   <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
   <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
   <img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"> | 
+    <!-- Cliquer sur Contact ouvre un pop-up vers une application de messagerie mail avec un destinataire, un sujet et un début de message déjà remplis -->
   <a href="mailto:Guitty.Aziz@etu.univ-paris1.fr&subject=Contact au sujet du site de Serendipity Magazine&body=Bonjour! Je vous contacte au sujet de votre site web https://serendipity-magazine.github.io/ ...">Contact</a></p>
 </footer>
 
