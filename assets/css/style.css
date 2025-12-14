@@ -87,6 +87,15 @@ body {
   margin-top: 80px;
 }
 
+.header-relations {
+  height: 65vh;
+  background-image: url("../img/header-relations.webp");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-top: 80px;
+}
+
 .header-overlay {
   background: rgba(255,255,255,0.65);
   height: 100%;
