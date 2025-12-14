@@ -17,26 +17,26 @@ body {
 
  /* unvisited link */
 a:link {
-  color: #13586E;
-  text-decoration: none;
+  color: black;
+  text-decoration: underline;
 }
 
 /* visited link */
 a:visited {
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 /* mouse over link */
 a:hover {
-  color: #2B0314;
-  text-decoration: none;
+  color: #13586E;
+  text-decoration: underline;
 }
 
 /* selected link */
 a:active {
   color: black;
-  text-decoration: none;
+  text-decoration: underline;
 } 
 
 /* NAV */
